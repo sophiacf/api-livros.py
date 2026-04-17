@@ -4,10 +4,10 @@ import os
 app = Flask(__name__)
 
 livros = [
-    {"id": 1, "livros": "O morro dos ventos uivantes"},
-    {"id": 2, "livros": "Os 7 maridos de Evelyn Hugo"},
-    {"id": 3, "livros": "Pequeno Principe"},
-    {"id": 4, "livros": "A Casa Verde"},
+    {"id": 1, "titulo": "O morro dos ventos uivantes", "autor": "Emily Brontë"},
+    {"id": 2, "titulo": "Os 7 maridos de Evelyn Hugo", "autor": "Taylor Jenkins Reid"},
+    {"id": 3, "titulo": "Pequeno Principe", "autor": "Antoine de Saint-Exupéry"},
+    {"id": 4, "titulo": "O alienista", "autor": "Machado de Assis" },
     
 ]
 
